@@ -2,7 +2,6 @@ import sys
 import random
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget, QVBoxLayout
 from PyQt6.QtGui import QPainter, QColor
-from PyQt6.QtCore import Qt
 
 class MainApp(QMainWindow):
     def __init__(self):
