@@ -1,5 +1,3 @@
-# Проблемы с подключением в GitHub
-
 import sys
 import random
 from PyQt6.QtWidgets import QApplication, QMainWindow, QPushButton, QWidget, QVBoxLayout
