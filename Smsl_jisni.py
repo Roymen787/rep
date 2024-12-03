@@ -12,7 +12,7 @@ class Circle:
 
 class Circle_Drawer(QWidget):
     def __init__(self):
-        super(CircleDrawer, self).__init__()
+        super(Circle_Drawer, self).__init__()
         self.circles = []
 
     def update_canvas(self, diameter):
@@ -36,7 +36,7 @@ class MainApp(QMainWindow):
         self.setWindowTitle("Random Circles Application")
         self.setGeometry(100, 100, 800, 600)
 
-        self.circle_drawer = CircleDrawer()
+        self.circle_drawer = Circle_Drawer()
         self.setCentralWidget(self.circle_drawer)
 
         self.layout = QVBoxLayout()
